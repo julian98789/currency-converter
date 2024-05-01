@@ -18,3 +18,10 @@ It should also support inverse conversion:
 - Convert from Dollar to the currency of Brazil
 - Convert from British Pounds to the currency of Colombia
 
+## Usage
+1. Clone this repository to your local machine.
+2. register at `https://www.exchangerate-api.com/`
+3. Write the password that arrived in your email in this code art:
+   ```Java
+     final String url = "https://v6.exchangerate-api.com/v6/"YOUR_API_KEY"/" + original + "/" + toConvert + "/" + amount;
+
