@@ -21,7 +21,7 @@ It should also support inverse conversion:
 ## Usage
 1. Clone this repository to your local machine.
 2. register at `https://www.exchangerate-api.com/`
-3. Write the password that arrived in your email in this code art:
+3. Write the password that arrived in your email in this code:
    ```Java
      final String url = "https://v6.exchangerate-api.com/v6/"YOUR_API_KEY"/" + original + "/" + toConvert + "/" + amount;
 
